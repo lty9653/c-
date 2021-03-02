@@ -1,0 +1,2 @@
+E:\Git\c-\CodeTest\Ex3_02\Debug\Ex3_02.exe
+E:\Git\c-\CodeTest\Ex3_02\Debug\Ex3_02.pdb
