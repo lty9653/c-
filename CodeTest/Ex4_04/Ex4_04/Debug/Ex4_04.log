@@ -1,0 +1,18 @@
+﻿  Ex4_04.cpp
+E:\Git\c-\CodeTest\Ex4_04\Ex4_04\Ex4_04.cpp(72,1): error C2664: “void std::vector<Element_type *,std::allocator<Element_type *>>::push_back(_Ty &&)”: 无法将参数 1 从“const std::pair<const Name,Details> *”转换为“const _Ty &”
+          with
+          [
+              _Ty=Element_type *
+          ]
+E:\Git\c-\CodeTest\Ex4_04\Ex4_04\Ex4_04.cpp(72,1): message : 原因如下: 无法从“const std::pair<const Name,Details> *”转换为“const _Ty”
+          with
+          [
+              _Ty=Element_type *
+          ]
+E:\Git\c-\CodeTest\Ex4_04\Ex4_04\Ex4_04.cpp(72,19): message : 转换丢失限定符
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.27.29110\include\vector(716,10): message : 参见“std::vector<Element_type *,std::allocator<Element_type *>>::push_back”的声明
+E:\Git\c-\CodeTest\Ex4_04\Ex4_04\Ex4_04.cpp(103): message : 查看对正在编译的函数 模板 实例化“void list_sorted_people<main::<lambda_b4d34f335bf341da244de7224205afbc>>(const People &,Compare)”的引用
+          with
+          [
+              Compare=main::<lambda_b4d34f335bf341da244de7224205afbc>
+          ]
